@@ -30,6 +30,22 @@
     "font_scale": 1,
     "enable_haptic_feedback": true
   },
+  "theme_configuration": {
+    "palette": {
+      "primary": "#6750A4",
+      "secondary": "#625B71",
+      "surface": "#FFFBFE",
+      "background": "#FFFFFF",
+      "on_primary": "#FFFFFF",
+      "on_background": "#1C1B1F"
+    },
+    "typography": {
+      "font_family": "Roboto",
+      "title_size": 22,
+      "body_size": 14,
+      "caption_size": 12
+    }
+  },
   "uiConfiguration": {
     "themeMode": "light",
     "fontScale": 1,

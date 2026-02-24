@@ -9,7 +9,7 @@ GetIt getIt = GetIt.instance;
 /// Dependency injection setup. Same structure as storefront_woo.
 /// - Generated config (config_di.config.dart): HomeViewModel etc. via @injectable.
 /// - Core views (SplashView, OnboardingView) need their Cubits registered here
-///   so MasterViewCubit can resolve them with GetIt.I<V>().
+///   so MasterViewCubit can resolve them through GetIt.
 @InjectableInit(preferRelativeImports: false)
 Future<GetIt> configureDependencies({String? environment}) async {
   try {

@@ -6,11 +6,11 @@
  */
 
 import 'package:injectable/injectable.dart';
-import 'package:masterfabric_core/masterfabric_core.dart';
+import 'package:sub_serve/app/view_models/app_base_view_model.dart';
 import 'package:sub_serve/app/views/view_home/models/module/states.dart';
 
 @injectable
-class HomeViewModel extends BaseViewModelHydratedCubit<HomeState> {
+class HomeViewModel extends AppBaseViewModel<HomeState> {
   HomeViewModel() : super(HomeInitialState());
 
   final Map<String, dynamic> _arguments = {};
